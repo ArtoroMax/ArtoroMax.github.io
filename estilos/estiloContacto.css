@@ -1,0 +1,99 @@
+@charset "utf -8";
+/**/
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.contenido-cabeza {
+    background-color: gold;
+    width: 100%;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0%;
+    left: 0%;
+    font-size: large;
+    border-radius: 0.4em;
+}
+
+.contenido-nav {
+    background-color: rgb(250, 240, 150);
+    border-radius: 0.4em;
+}
+
+.navegacionBarra {
+    text-align: center;
+    font-size: medium;
+    margin: auto;
+}
+
+.navegacionBarra li {
+    display: inline-block;
+    text-align: center;
+    font-size: large;
+}
+
+.navegacionBarra li a {
+    text-decoration: none;
+    color: black;
+    padding: 18px;
+    display: block;
+    border-radius: .5em;
+}
+
+.navegacionBarra li a:hover {
+    background: gold;
+    color: rgb(0, 0, 0);
+}
+
+.contacto {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 3rem;
+    min-height: 40vw;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+}
+
+#pie {
+    text-align: center;
+    position: relative;
+}
+
+#imagenPie {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: auto;
+    right: 50%;
+    transform: translateX(50%) translateY(-4%)
+}
+
+h1 {
+    font-family: monospace;
+    position: absolute;
+    top: 5%;
+    right: 50%;
+    transform: translateX(50%) translateY(-4%);
+}
+
+h2 {
+    font-family: monospace;
+    text-align: center;
+    font-size: x-large;
+}
+
+h3{
+    font-family: monospace;
+    text-align: center;
+    font-size: x-large;
+}
